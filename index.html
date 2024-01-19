@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GPA Converter.MUK</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>GPA Converter</h1>
+        <h4>by UBAID KHAN</h4>
+
+        <div class="input-container">
+            <label for="grades">Enter grades (comma separated):</label>
+            <input type="text" id="grades" placeholder="e.g., 85, 92, 78">
+        </div>
+        <button onclick="calculateGPA()">Calculate GPA</button>
+        <div id="result">
+            <p id="gpa">GPA: <span id="gpaValue"></span></p>
+            <p id="percentage">Percentage: <span id="percentageValue"></span>%</p>
+        </div>
+    </div>
+ 
+    <script src="java.js"></script>
+</body>
+</html>
